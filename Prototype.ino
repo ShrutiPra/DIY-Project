@@ -71,13 +71,13 @@ delay(10);
 BLYNK_WRITE(V3)
 
 {
-for (pos=0; pos<=180; pos += 5){
+for (pos=0; pos<=180; pos += 8){
 
   servo.write(pos);
 
 }
 
-for (pos=180; pos >= 0; pos -= 5){
+for (pos=180; pos >= 0; pos -= 8){
 
   servo.write(pos);
     delay(10);
